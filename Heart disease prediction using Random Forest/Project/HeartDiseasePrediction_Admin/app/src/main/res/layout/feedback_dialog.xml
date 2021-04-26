@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/name"
+            android:layout_margin="10dp"
+            android:text="RP"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:paddingVertical="10dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/feed"
+                android:layout_marginHorizontal="10dp"
+                android:text="qwertyuiop asdfghjkl zxcvbnm dfsaahf jknfdasjkkfdsfsd kjshkkfd knjfskhkfds kfshkh mkjdskkfds kjdsfkkjfds mhkfdshkdfs"
+                android:textColor="@color/purple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="italic"
+                android:layout_below="@id/feed"
+                android:id="@+id/dt"
+                android:layout_marginHorizontal="10dp"
+                android:text="date time"
+                android:textColor="@color/purpleTrans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/cancel"
+            android:layout_margin="10dp"
+            android:text="Ok"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </TableLayout>
+
+</RelativeLayout>

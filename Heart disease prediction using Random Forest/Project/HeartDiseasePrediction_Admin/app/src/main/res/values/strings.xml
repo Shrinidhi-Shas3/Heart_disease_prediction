@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Heart Prediction Admin</string>
+
+    <string name="check_pain">Check Pain</string>
+    <string name="blood_sugar">Blood Sugar</string>
+    <string name="resting_electrographic">Resting Electrographic</string>
+    <string name="excercise_induced_angina">Exercise Induced Angina</string>
+    <string name="slope">Slope</string>
+    <string name="number_major_vessels">Number of Major Vessels (CA)</string>
+    <string name="thal">Thal</string>
+    <string name="rest_blood_pressure">Rest Blood Pressure</string>
+    <string name="serum_cholesterol">Serum Cholesterol</string>
+    <string name="maximum_heart_rate">Maximum Heart Rate Achieved (Thalach)</string>
+    <string name="exercise_old_peak">ST Depression Induced by Exercise (Old Peak)</string>
+</resources>

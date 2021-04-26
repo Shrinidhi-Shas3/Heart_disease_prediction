@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.heart.prediction.user.AnalysisFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_traing_details" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.heart.prediction.user.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.heart.prediction.user.ui.feedback.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.heart.prediction.user.ui.doctors.DoctorsFragment"
+        android:label="@string/menu_doctors"
+        tools:layout="@layout/fragment_send" />
+</navigation>
